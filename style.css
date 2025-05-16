@@ -2,5 +2,80 @@ html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
 body {
-
+background-color: #cde4f9;
+font-size: 20px;
+line-height: 1.4;
+display: relative;
+font-family: 'Source Sans 3', sans-serif;
 }
+
+section {
+    background-color:#ffffff;
+    max-width: 900px;
+    padding: 30px 50px;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+.pariz {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block; /*změna prvku na block*/
+    margin: 0 auto; /*zarování na střed*/
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.autor {
+    color: #dc6aa1;
+    text-align: center;
+}
+
+.perex {
+    font-size: 24px;
+    color: #808080;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #dc6aa1;
+    margin-top: 48px;
+}
+
+.vez,
+.louvre {
+    border-radius: 8px;
+    width: 300px;
+    height: 225px;
+    margin: 0 0 20px 20px;
+    float: right;
+}
+
+.oblouk,
+.montmartre {
+    border-radius: 8px;
+    width: 300px;
+    height: 225px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.zahrady {
+    width: 100%;
+    border-radius: 8px;
+}
+
